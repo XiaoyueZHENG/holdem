@@ -189,6 +189,7 @@ export function TitleScreen({
           aria-label="大厅导航"
           className="flex items-center gap-3.5 sm:gap-5 text-xs font-medium shrink-0"
         >
+          <a href="/learn.html" target="_blank" rel="noopener noreferrer" className="py-1.5 whitespace-nowrap text-[#E6CF96] hover:text-white">牌桌教学</a>
           <button
             type="button"
             data-testid="open-card-gallery-btn"
